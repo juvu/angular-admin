@@ -19,5 +19,5 @@ RUN mv data/docker/Shanghai /etc/localtime \
     && npm install && npm cache verify
 
 VOLUME ["/app/data"]
-EXPOSE 80 443 4200
+EXPOSE 80 443 4200 27017
 CMD ["pm2-runtime", "start", "ecosystem.json"]
