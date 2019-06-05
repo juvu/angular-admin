@@ -15,6 +15,7 @@
   "scripts": {
     "ng": "ng",
     "pm2": "pm2",
+    "aot": "npm run make && ng serve --aot",
     "watch": "npm run make && ng serve",
     "build": "npm run make && ng build --prod",
     "test": "ng test",
